@@ -1,10 +1,10 @@
 # Spotify Music and Artist Analysis - Graph Exploration
 
-## 📌 Project Overview
+##  Project Overview
 
 This project explores Spotify music and artist data using **graph-based analysis**. By constructing and analyzing various types of graphs, we aim to uncover relationships between songs, artists, genres, and playlists. Additionally, we implement a **recommendation system** using the **PageRank algorithm** to suggest similar artists.
 
-## 📂 Dataset Description
+##  Dataset Description
 
 The dataset contains detailed information about Spotify tracks, including metadata, popularity metrics, and musical features. Some key attributes include:
 
@@ -13,7 +13,7 @@ The dataset contains detailed information about Spotify tracks, including metada
 - **Playlist Details:** `playlist_name`, `playlist_genre`
 - **Musical Features:** `tempo`, `acousticness`, `liveness`, `valence`, etc.
 
-## 🔍 Graph Representations
+##  Graph Representations
 
 We construct multiple graph structures to analyze different relationships:
 
@@ -24,19 +24,19 @@ We construct multiple graph structures to analyze different relationships:
 - **Collaboration Graph:** Shows collaborations between artists.
 - **Bipartite Artist-Genre Graph:** Links artists to their primary music genres.
 
-## 📊 Key Analyses
+##  Key Analyses
 
 - **Community Detection:** Using **Louvain** and **Spectral Clustering** to find music clusters.
 - **Popularity Analysis:** Identifying the most popular songs and artists.
 - **Graph Metrics:** Analyzing **PageRank, Betweenness Centrality**, and **Modularity**.
 - **Recommendation System:** Suggesting similar artists using **PageRank-based ranking**.
 
-## ⚡ Technologies Used
+##  Technologies Used
 
 - **Python**, **NetworkX**, **Matplotlib**, **Pandas**, **Scikit-learn**
 - **Graph Algorithms:** Louvain, Spectral Clustering, PageRank
 
-## 🚀 How to Run
+##  How to Run
 
 1. Clone this repository:
    ```bash
